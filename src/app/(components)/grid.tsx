@@ -3,11 +3,11 @@ import React from "react";
 
 const Grid = () => {
   return (
-    <div className="flex-col flex space-y-28 p-4 py-14">
+    <div className="flex-col flex space-y-28 p-4 py-14 text-[#362b24] ">
       <div className="md:grid md:grid-cols-[1fr_4fr_3fr] flex flex-col text-center md:text-left md:space-y-0 space-y-10 md:space-x-6">
         <p className="eb-garamond text-4xl">01</p>
         <div className="max-w-lg flex flex-col gap-4">
-          <h2 className="text-3xl eb-garamond tracking-wider">
+          <h2 className="text-3xl eb-garamond">
             Match with a Reliable Designer in Jaipur and Get Inspired.
           </h2>
           <p className="leading-6">
@@ -54,7 +54,7 @@ const Grid = () => {
       <div className="md:grid md:grid-cols-[1fr_4fr_3fr] flex flex-col text-center md:text-left md:space-y-0 space-y-10 md:space-x-6">
         <p className="eb-garamond text-4xl">02</p>
         <div className="max-w-lg flex flex-col gap-4">
-          <h2 className="text-3xl eb-garamond tracking-wider">
+          <h2 className="text-3xl eb-garamond">
             Collaborate 1:1 with your designer to create your perfect space.
           </h2>
           <p className="leading-6">
@@ -77,7 +77,7 @@ const Grid = () => {
       <div className="md:grid md:grid-cols-[1fr_4fr_3fr] flex flex-col text-center md:text-left md:space-y-0 space-y-10 md:space-x-6">
         <p className="eb-garamond text-4xl">03</p>
         <div className="max-w-lg flex flex-col gap-4">
-          <h2 className="text-3xl eb-garamond tracking-wider">
+          <h2 className="text-3xl eb-garamond">
             Elevate Your Space with Effortless Design
           </h2>
           <p className="leading-6">

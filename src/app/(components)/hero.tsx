@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
       }}
       className="relative"
     >
-      <div className="bg-[#f3f0eb] text-[#362b24] py-7 px-10 w-full lg:max-w-[46rem] eb-garamond tracking-wide absolute lg:top-1/2 lg:-translate-y-1/2 lg:ml-20 flex flex-col gap-10">
+      <div className="bg-[#c1ff72] text-[#362b24] py-7 px-10 w-full lg:max-w-[46rem] eb-garamond tracking-wide absolute lg:top-1/2 lg:-translate-y-1/2 lg:ml-20 flex flex-col gap-10">
         <p className="text-center uppercase font-[family-name:var(--font-geist-sans)] text-sm font-semibold">
           Interior Design Service
         </p>
@@ -26,6 +27,13 @@ const Hero = () => {
             Contact us
           </Button>
         </div>
+        <Image
+          src={"/MVIMAA VAISHNO INTERIOR COMPANY.png"}
+          alt="aas"
+          width={100}
+          height={100}
+        />
+        <Image src={"/z1.png"} alt="aas" width={100} height={100} />
       </div>
     </div>
   );

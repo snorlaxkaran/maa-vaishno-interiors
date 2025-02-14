@@ -11,8 +11,8 @@ const Grid = () => {
             Match with a Reliable Designer in Jaipur and Get Inspired.
           </h2>
           <p className="leading-6">
-            With 10 years of experience, 1,000+ designs, and a strong presence
-            in Jaipur, we’ll help you refine your style, find inspiration, and
+            With 2 years of experience, 1,000+ designs, and a strong presence in
+            Jaipur, we’ll help you refine your style, find inspiration, and
             bring your design dreams to life for your unique space.
           </p>
         </div>

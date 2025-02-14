@@ -12,7 +12,7 @@ const page = () => {
        flex mx-auto flex-col"
       >
         <div className="text-center my-10 text-xl font-semibold">
-          Our Approach to Serving You
+          Our Approach to Serving You.
         </div>
         <Grid />
       </section>

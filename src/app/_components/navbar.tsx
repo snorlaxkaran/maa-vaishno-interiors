@@ -43,9 +43,8 @@ const Navbar = () => {
             </SheetTrigger>
             <SheetContent side={"left"}>
               <SheetHeader>Welcome to Maa Vaishno Interior</SheetHeader>
-              <SheetDescription>
-                <Link href={"#gallery"}>Gallery</Link>
-                <Link href={"#about"}>About us</Link>
+              <SheetDescription className="p-6 py-10">
+                <Link href={"/gallery"}>Gallery</Link>
               </SheetDescription>
             </SheetContent>
           </Sheet>

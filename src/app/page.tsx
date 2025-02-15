@@ -1,26 +1,10 @@
 import React from "react";
 
-import Image from "next/image";
-
 import Hero from "./_components/hero";
 import Grid from "./_components/grid";
 import Separation from "./_components/separation";
 import Gallery from "./_components/gallery";
-
-const data = [
-  {
-    fullName: "Kartik Barman",
-    imageUrl: "/kartik2.jpg",
-    roles: "Founder",
-    contact: "+91 7976252910",
-  },
-  {
-    fullName: "Yuvraj Rathore",
-    imageUrl: "/yuvi2.jpg",
-    roles: "Co-Founder",
-    contact: "+91 9772648034",
-  },
-];
+import AboutUS from "./about/page";
 
 const page = () => {
   return (
@@ -42,24 +26,7 @@ const page = () => {
         <div className="text-center text-3xl font-medium">
           Get to know our Founder & Co. Founder
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 my-10 gap-10">
-          {data.map((person) => (
-            <div className="flex items-center gap-5" key={person.imageUrl}>
-              <Image
-                src={person.imageUrl}
-                width={100}
-                height={100}
-                alt={person.fullName}
-                className="rounded-full"
-              />
-              <div>
-                <h2 className="text-xl font-semibold">{person.fullName}</h2>
-                <p className="text-lg">{person.roles}</p>
-                <p className="text-sm">{person.contact}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <AboutUS />
       </div>
       <div id="gallery">
         <Gallery />

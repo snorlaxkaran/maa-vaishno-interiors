@@ -15,11 +15,17 @@ const Navbar = () => {
   return (
     <div>
       <nav className="max-w-6xl mx-auto w-full flex justify-between items-center p-4 lg:p-0 lg:py-1">
-        <div className="flex gap-1 items-center">
-          <Image src={"/z1.svg"} alt="aas" width={50} height={50} />
-          <p className="text-sm text-slate-600 hidden md:block">
-            Maa Vaishno Interiors
-          </p>
+        <Link href={"/"}>
+          <div className="flex gap-1 items-center">
+            <Image src={"/z1.svg"} alt="aas" width={50} height={50} />
+            <p className="text-sm text-slate-600 hidden md:block">
+              Maa Vaishno Interiors
+            </p>
+          </div>
+        </Link>
+        <div className=" gap-10 hidden md:flex">
+          <Link href={"/gallery"}>Gallery</Link>
+          <Link href={"/about"}>About us</Link>
         </div>
         <div className="flex items-center gap-4">
           <Link href={"/"}>
@@ -45,6 +51,7 @@ const Navbar = () => {
               <SheetHeader>Welcome to Maa Vaishno Interior</SheetHeader>
               <SheetDescription className="p-6 py-10">
                 <Link href={"/gallery"}>Gallery</Link>
+                <Link href={"/about"}>Gallery</Link>
               </SheetDescription>
             </SheetContent>
           </Sheet>

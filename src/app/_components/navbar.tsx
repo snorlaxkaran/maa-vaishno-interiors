@@ -49,8 +49,20 @@ const Navbar = () => {
               </div>
             </SheetTrigger>
             <SheetContent side={"left"}>
-              <SheetHeader>Welcome to Maa Vaishno Interior</SheetHeader>
+              <SheetHeader className="text-2xl">
+                <div className="flex gap-2 items-center">
+                  <Image src={"/z1.svg"} alt="aas" width={50} height={50} />
+                  <div className="text-left">
+                    Welcome to Maa Vaishno Interior
+                  </div>
+                </div>
+              </SheetHeader>
               <SheetDescription className="p-6 py-10 flex flex-col gap-3">
+                <SheetClose asChild>
+                  <Link href={"/Home"} className="text-2xl w-full ">
+                    Home
+                  </Link>
+                </SheetClose>
                 <SheetClose asChild>
                   <Link href={"/gallery"} className="text-2xl w-full ">
                     Gallery

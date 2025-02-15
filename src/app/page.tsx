@@ -4,6 +4,7 @@ import Hero from "./(components)/hero";
 import Separation from "./(components)/separation";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const data = [
   {
@@ -28,9 +29,18 @@ const page = () => {
           <Image src={"/z1.svg"} alt="aas" width={50} height={50} />
           <p className="text-sm text-slate-600">Maa Vaishno Interiors</p>
         </div>
-        <Button variant={"outline"} className="bg-transparent">
-          Get in touch
-        </Button>
+        <Link href={"/"}>
+          <Button variant={"outline"} className="bg-transparent">
+            Get in touch
+            <Image
+              src={"/whatsapp.svg"}
+              alt="aas"
+              width={17}
+              height={17}
+              className="text-green-400"
+            />
+          </Button>
+        </Link>
       </nav>
       <Hero />
       <section

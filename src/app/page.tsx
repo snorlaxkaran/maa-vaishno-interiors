@@ -45,11 +45,11 @@ const page = () => {
       <div>
         <Separation />
       </div>
-      <div className="mx-auto max-w-6xl my-20 w-full">
+      <div className="mx-auto max-w-6xl my-20 w-full p-4 md:p-0">
         <div className="text-center text-3xl font-medium">
           Get to know our Founder & Co. Founder
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 my-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 my-10 gap-10">
           {data.map((person) => (
             <div className="flex items-center gap-5" key={person.imageUrl}>
               <Image

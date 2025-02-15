@@ -30,7 +30,7 @@ const imageData = [
 
 const Gallery = () => {
   return (
-    <div className="grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid max-w-6xl mx-auto">
+    <div className="grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid max-w-6xl gap-1 mx-auto">
       {imageData.map((image) => (
         <Image
           src={image.imageUrl}
@@ -38,7 +38,7 @@ const Gallery = () => {
           alt={image.imageUrl}
           width={100}
           height={100}
-          className="w-full aspect-square scale-125 object-cover"
+          className="w-full aspect-square object-cover rounded-sm overflow-hidden"
           unoptimized
         />
       ))}

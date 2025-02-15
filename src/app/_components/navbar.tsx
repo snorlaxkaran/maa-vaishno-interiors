@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetDescription,
   SheetHeader,
@@ -50,12 +51,16 @@ const Navbar = () => {
             <SheetContent side={"left"}>
               <SheetHeader>Welcome to Maa Vaishno Interior</SheetHeader>
               <SheetDescription className="p-6 py-10 flex flex-col gap-3">
-                <Link href={"/gallery"} className="text-2xl w-full ">
-                  Gallery
-                </Link>
-                <Link href={"/about"} className="text-2xl w-full ">
-                  About us
-                </Link>
+                <SheetClose asChild>
+                  <Link href={"/gallery"} className="text-2xl w-full ">
+                    Gallery
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link href={"/about"} className="text-2xl w-full ">
+                    About us
+                  </Link>
+                </SheetClose>
               </SheetDescription>
             </SheetContent>
           </Sheet>

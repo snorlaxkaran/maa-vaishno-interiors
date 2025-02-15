@@ -13,7 +13,7 @@ const Hero = () => {
       }}
       className="relative"
     >
-      <div className="absolute inset-0 bg-gray-900/55">
+      <div className="absolute inset-0 bg-gray-900/55 p-4 lg:p-0">
         <div className="flex items-center justify-center min-h-screen">
           <div className="space-y-2 max-w-6xl w-full">
             <h1 className="text-white text-3xl md:text-5xl font-bold">

@@ -59,7 +59,7 @@ const Navbar = () => {
               </SheetHeader>
               <SheetDescription className="p-6 py-10 flex flex-col gap-3">
                 <SheetClose asChild>
-                  <Link href={"/Home"} className="text-2xl w-full ">
+                  <Link href={"/"} className="text-2xl w-full ">
                     Home
                   </Link>
                 </SheetClose>

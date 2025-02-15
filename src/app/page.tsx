@@ -47,7 +47,7 @@ const page = () => {
         className="max-w-6xl overflow-hidden
        flex mx-auto flex-col"
       >
-        <div className="text-center my-10 text-xl font-semibold">
+        <div className="text-center my-10 text-3xl font-medium">
           Our Approach to Serving You
         </div>
         <Grid />

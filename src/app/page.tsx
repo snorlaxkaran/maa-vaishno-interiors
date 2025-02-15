@@ -38,7 +38,7 @@ const page = () => {
       <div>
         <Separation />
       </div>
-      <div className="mx-auto max-w-6xl my-20 w-full p-4 md:p-0">
+      <div className="mx-auto max-w-6xl my-20 w-full p-4 md:p-0" id="about">
         <div className="text-center text-3xl font-medium">
           Get to know our Founder & Co. Founder
         </div>
@@ -61,7 +61,9 @@ const page = () => {
           ))}
         </div>
       </div>
-      <Gallery />
+      <div id="gallery">
+        <Gallery />
+      </div>
     </div>
   );
 };

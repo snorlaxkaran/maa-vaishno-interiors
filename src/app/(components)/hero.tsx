@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -15,20 +13,18 @@ const Hero = () => {
       }}
       className="relative"
     >
-      <div className="bg-[#f3f0eb] text-[#362b24] py-7 px-10 w-full lg:max-w-[46rem] eb-garamond tracking-wide absolute lg:top-1/2 lg:-translate-y-1/2 lg:ml-20 flex flex-col gap-10">
-        <p className="text-center uppercase font-[family-name:var(--font-geist-sans)] text-sm font-semibold">
-          Interior Design Service
-        </p>
-        <h1 className="lg:text-7xl text-5xl">
-          Stunning interior design services, now within reach.
-        </h1>
-        <div className="font-[family-name:var(--font-geist-sans)]">
-          <Button className="start-0 bg-orange-300 rounded-full text-xl px-7 py-5 text-[#362b24] hover:text-white">
-            Contact us
-          </Button>
+      <div className="absolute inset-0 bg-gray-900/55">
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="space-y-2 max-w-6xl w-full">
+            <h1 className="text-white text-3xl md:text-5xl font-bold">
+              Elevate your Space with Glass Railings
+            </h1>
+            <p className="text-slate-300">
+              Discover the perfect blend of elegance and durability with premium
+              glass railing systems. Designed to enhance any space.
+            </p>
+          </div>
         </div>
-
-        <Image src={"/z1.png"} alt="aas" width={100} height={100} />
       </div>
     </div>
   );

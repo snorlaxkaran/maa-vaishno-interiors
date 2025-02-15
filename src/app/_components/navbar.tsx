@@ -41,7 +41,7 @@ const Navbar = () => {
                 <Menu />
               </div>
             </SheetTrigger>
-            <SheetContent>
+            <SheetContent side={"left"}>
               <SheetHeader>Welcome to Maa Vaishno Interior</SheetHeader>
               <SheetDescription>
                 <Link href={"#gallery"}>Gallery</Link>
